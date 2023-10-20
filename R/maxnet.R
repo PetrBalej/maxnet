@@ -58,7 +58,7 @@ maxnet <-
 function(p, data, f=maxnet.formula(p, data), regmult=1.0, 
          regfun=maxnet.default.regularization, addsamplestobackground=T, ...)
 {
-   msg <- paste(msg, "****************** addsamplestobackground=", as.character(addsamplestobackground), " *********************")
+   msg <- paste("****************** addsamplestobackground=", as.character(addsamplestobackground), " *********************")
    if (anyNA(data)) stop("NA values in data table. Please remove them and rerun.")
    if (!is.vector(p))
        stop("p must be a vector.")
