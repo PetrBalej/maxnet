@@ -1,6 +1,6 @@
 Package: maxnet
 Type: Package
-Title: Fitting 'Maxent' Species Distribution Models with 'glmnet'
+Title: Fitting 'Maxent' Species Distribution Models with 'glmnet' (test addsamplestobackground)
 Version: 0.1.4
 Date: 2021-07-08
 Author: Steven Phillips
